@@ -1,9 +1,9 @@
 import * as azdev from "azure-devops-node-api";
 import * as ba from "azure-devops-node-api/BuildApi";
 
-let orgUrl = `https://dev.azure.com/eysbp/`;
+let orgUrl = `<your url>`;
 
-let token = 'cgd5bv5f4wyoodvhkbdbglvldodmohsgt3v36tzz3gk4w25py73q';
+let token = '<your token>';
 
 let authHandler = azdev.getPersonalAccessTokenHandler(token);
 let connection = new azdev.WebApi(orgUrl, authHandler);
